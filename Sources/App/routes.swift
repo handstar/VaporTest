@@ -2,12 +2,12 @@ import Fluent
 import Vapor
 
 func routes(_ app: Application) throws {
-    //MARK - web view
+    //http://127.0.0.1:8080
     app.get { req in
         return req.view.render("index", ["title": "Hello Vapor!"])
     }
 
-    //MARK: - api test
+    //MARK: - test
     let test = app.grouped("test")
     
     //http://127.0.0.1:8080/test/hello
@@ -16,6 +16,7 @@ func routes(_ app: Application) throws {
     }
     
     //http://127.0.0.1:8080/test/json
+    //因為不支援Any型別
     test.get("json") { req -> [String: String] in
         return ["id": "1", "msg": "Hello", "item": "car"]
     }
