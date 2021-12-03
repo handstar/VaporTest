@@ -29,6 +29,24 @@
         }
       },
       {
+        "package": "fluent",
+        "repositoryURL": "https://github.com/vapor/fluent.git",
+        "state": {
+          "branch": null,
+          "revision": "4004e926cdef1fbb937501c8a60554349cced675",
+          "version": "4.2.0"
+        }
+      },
+      {
+        "package": "fluent-kit",
+        "repositoryURL": "https://github.com/vapor/fluent-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "9d47c328bf83999968c12a3bc94ead1d706ad4a9",
+          "version": "1.11.0"
+        }
+      },
+      {
         "package": "leaf",
         "repositoryURL": "https://github.com/vapor/leaf.git",
         "state": {
@@ -62,6 +80,15 @@
           "branch": null,
           "revision": "4cf052b78aebaf1b23f2264ce04d57b4b6eb5254",
           "version": "4.2.0"
+        }
+      },
+      {
+        "package": "sql-kit",
+        "repositoryURL": "https://github.com/vapor/sql-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "2e1ffbfa5ec6c87f6c932ecebbc11c7a5bc0115d",
+          "version": "3.8.1"
         }
       },
       {
