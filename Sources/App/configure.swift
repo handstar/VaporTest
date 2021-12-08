@@ -10,8 +10,8 @@ public func configure(_ app: Application) throws {
 
 //    app.databases.use(.sqlite(.file("db.sqlite")), as: .sqlite)
 
-    app.http.server.configuration.hostname = "hank-vapor-api.herokuapp.com"
-    app.http.server.configuration.port = 8080
+//    app.http.server.configuration.hostname = "hank-vapor-api.herokuapp.com"
+//    app.http.server.configuration.port = 8080
 
     app.migrations.add(CreateTodo())
 
